@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@
   position: relative;
   width: 80%;
   height: 80vh;
-  background: url(/img/bg.png) no-repeat;
+  background: url('./img/bg.png') no-repeat;
   background-size: cover;
   background-position: center center;
   text-align: center;
@@ -24,7 +24,7 @@
 }
 
 .paddle {
-  background: url("/img/paddle.png") no-repeat;
+  background: url('./img/paddle.png') no-repeat;
   background-position: center center;
   background-size: cover;
   position: absolute;
@@ -42,7 +42,7 @@
 }
 
 #ball {
-  background: url("/img/ball.png") no-repeat;
+  background: url('./img/ball.png') no-repeat;
   background-position: center center;
   background-size: cover;
   width: 20px;
@@ -79,7 +79,7 @@
 /* Neon Text Effect */
 body {
   background: #111;
-  font-family: "Dosis", Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
 
@@ -94,7 +94,8 @@ body {
 .title {
   text-transform: uppercase;
   color: white;
-  animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: neonGlow 2s infinite alternate
+    cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .game-title {
