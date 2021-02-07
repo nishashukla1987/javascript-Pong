@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Pong Game</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis:600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+
+  <body>
+    <div id="game-intro">
+      <h1 class="game-title title">PONG Remastered</h1>
+      <p class="game-tribute title">1972 - 2020</p>
+      <button id="start-btn">Click Here To Start</button>
+    </div>
+
+    <main id="container">
+      <span id="score">SCORE</span><br />
+      <button id="playerA" class="player">0</button>
+      <button id="playerB" class="player">0</button>
+      <div id="paddle1" class="paddle glow"></div>
+      <div id="paddle2" class="paddle glow"></div>
+      <div id="ball"></div>
+    </main>
+
+    <div id="extra">
+      <p class="game-instruction">Player 1: Press W and S</p>
+      <p class="game-instruction">Player 2: Press Up and Down</p>
+
+      <p class="game-finished-msg">
+        Player 1 WON The Game!
+        <button onclick="window.location.reload()">AGAIN!!!</button>
+      </p>
+
+      <p class="game-finished-msg">
+        Player 2 WON The Game!
+        <button onclick="window.location.reload()">AGAIN!!!</button>
+      </p>
+    </div>
+
+    <audio src="/audio/bgm.mp3" audio id="bgm"></audio>
+    <audio src="/audio/pop.wav" audio id="pop"></audio>
+    <audio src="/audio/ding1.mp3" audio id="ding"></audio>
+    <audio src="/audio/yeahhh.mp3" audio id="yeah"></audio>
+  </body>
+
+  <script src="js/app.js"></script>
+</html>
