@@ -11,7 +11,7 @@
   position: relative;
   width: 80%;
   height: 80vh;
-  background: url('/img/bg.png') no-repeat;
+  background: url(./img/bg.png) no-repeat;
   background-size: cover;
   background-position: center center;
   text-align: center;
@@ -24,7 +24,7 @@
 }
 
 .paddle {
-  background: url('/img/paddle.png') no-repeat;
+  background: url(./img/paddle.png) no-repeat;
   background-position: center center;
   background-size: cover;
   position: absolute;
@@ -42,7 +42,7 @@
 }
 
 #ball {
-  background: url('/img/ball.png') no-repeat;
+  background: url(./img/ball.png) no-repeat;
   background-position: center center;
   background-size: cover;
   width: 20px;
